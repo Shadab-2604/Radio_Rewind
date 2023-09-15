@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RADIO REWIND</title>
+    <link rel="icon" href="/images/music.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+    <style>
+        body{
+            margin: 0%;
+            padding: 0%;
+           background-color: rgb(51, 52, 56);
+           
+        }
+        nav{
+            display: flex;
+           justify-content: space-between;
+            background-color: #000000 ;
+            height: 70px;
+            width: 100%;
+            padding-left: 20px;
+            padding-right: 30px;
+           box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.584);
+        }
+        .navleft{
+            display: flex;
+            
+        }
+        ul{
+            display: flex;
+            justify-content: space-between;
+           
+        }
+        .webname{
+          color:rgb(255, 255, 255);
+          margin-left: 15px;
+          font-size: 28px;
+          font-family: 'Kalam', cursive;
+          height: 30px;
+          margin-top: 15px;
+          
+         
+        }
+        .logo{
+            margin-top: 10px;
+            height: 50px;
+           width: 50px;
+         
+        }
+        li{
+            color: rgb(255, 255, 255);
+            font-family:  sans-serif;
+            font-size: larger;
+            font-weight: 500px;
+            margin-top: 15px;
+        }
+        .aa{
+            margin-left: 15px;
+            text-decoration: none;
+            list-style: none;
+            margin-top: 5px;
+        }
+        input{
+            border: none;
+            height: 40px;
+            width: 250px;
+           margin-right: 20px;
+           margin-top: 14px;
+            border-radius: 10px;
+          padding-left: 15px;
+          color: rgb(255, 255, 255);
+          background: none;
+          fill: none;
+          outline: none;
+          border: rgba(255, 255, 255, 0.529) solid 2px;
+        }
+        ::placeholder{
+            color: rgba(254, 254, 254, 0.558);
+        }
+         
+
+        /* Dropdown Button */
+.dropbtn {
+  background-color: #000000;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 20px;
+  
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #9f9f9f;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #1f2025;}
+ .dropdowndiv{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 1000px;
+ }
+
+ section{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 60px;
+        margin-left: 100px;
+        margin-right: 100px;
+       
+        
+       
+    }
+    .section1:hover > div:not(:hover) {
+        opacity: 0.2;
+    }
+    
+    .div1{
+        width: 280px;
+        height: 380px;
+       padding-top: 10px;
+        border-radius: 10px ;
+        background: #54A89D;
+       
+        
+        
+        
+        
+    }
+    .div2{
+        width: 280px;
+        height: 380px;
+        padding-top: 10px;
+        border-radius: 10px ;
+        border-radius: 10px ;
+        background: #A75E24;
+    }
+    .div3{
+        width: 280px;
+        height: 380px;
+        padding-top: 10px;
+        border-radius: 10px ;
+        border-radius: 10px ;
+        background: #B38861;
+    }
+   
+    .singers{
+        width: 250px;
+        height: 350px;
+       margin-left: 13px;
+     border-radius: 10px;
+        
+    }
+    .section2{
+        display: flex;
+        justify-content: space-around;
+        height: 100px;
+        margin-top: 1%;
+       
+    }
+    .name1{
+        font-size: 1.5rem;
+        margin-top: 0%;
+      
+       margin-bottom: 0%;
+       
+       color: white;
+       font-family: sans-serif;
+    }
+    .name2{
+        font-size: 1.5rem;
+        margin-top: 0%;
+      
+       margin-bottom: 0%;
+       color: white;
+       font-family: sans-serif;
+    }
+    .name3{
+        font-size: 1.5rem;
+        margin-top: 0%;
+      
+       margin-bottom: 0%;
+       color: white;
+       font-family: sans-serif;
+    }
+    .aa :hover{
+        color: #54A89D;
+        transform: scale(1.1);
+        animation-delay: 1s ease;
+    }
+    
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="navleft"><img class="logo" src="/images/music.png" alt="">
+           <p class="webname">RADIO REWIND</p> </div>
+        <div class="navright"><ul>
+            <input type="text" placeholder="search....">
+            <a class="aa" href="login.html"><li>LOGIN</li></a>
+            <a class="aa" href="login.html"><li>SIGNUP</li></a> 
+            <a class="aa" href="about.html"><li>ABOUT US</li></a> 
+        </ul></div>
+    </nav>
+
+   <div class="dropdowndiv">
+    <div class="dropdown">
+        <button class="dropbtn">TRENDING</button>
+        <div class="dropdown-content">
+          <a href="wada.html">WADA</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">TOP ALBUMS</button>
+        <div class="dropdown-content">
+          <a href="lata.html">LATA'S ALBUM</a>
+          <a href="rafi.html">RAFI'S ALBUM</a>
+          <a href="kishor.html">KISHOR'S ALBUM</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">TOP SONGS</button>
+        <div class="dropdown-content">
+          <a href="wada.html">WADA</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">TOP ARTISTS</button>
+        <div class="dropdown-content">
+          <a href="rafi.html">MOHAMMED RAFI</a>
+          <a href="lata.html">LATA MANGESHKAR</a>
+          <a href="kishor.html">KISHOR KUMAR</a>
+        </div>
+      </div>
+   </div>
+
+   <section class="section1">
+    <div class="div1"> 
+    <a href="rafi.html"><img class="singers" src="/images/1.png" alt=""></a>
+    </div>
+    <div class="div2">
+    <a href="lata.html"><img class="singers" src="/images/2.png" alt=""></a>
+    </div>
+    <div class="div3">
+    <a href="kishor.html"><img class="singers" src="/images/3.png" alt=""></a>
+    </div>
+</section>
+<section class="section2">
+    <div>
+        <p class="name1">MOHAMMED  RAFI</p>
+       
+    </div>
+    <div>
+        <p class="name2"> LATA  MANGESHKAR</p>
+        
+    </div>
+    <div>
+        <p class="name3">KISHOR  KUMAR</p>
+       
+    </div>
+</section>
+   
+</section>
+   
+</body>
+</html>
